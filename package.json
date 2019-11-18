@@ -2,9 +2,7 @@
   "name": "generals",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "11.10.1"
-  },
+  "homepage":"https://softdev-2019.github.io/frklngenerals/",
   "dependencies": {
     "@material-ui/core": "^4.5.1",
     "@material-ui/icons": "^4.5.1",
@@ -39,6 +37,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
