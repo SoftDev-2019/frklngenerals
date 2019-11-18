@@ -1,0 +1,17 @@
+
+.roster-table-main-thead {
+    background:rgb(36, 34, 34);
+    color: white;
+    margin-left: 5px;
+}
+
+.game-data-tr {
+    font-size: smaller;
+    font-weight: bold;
+
+    .roster-data-jerseynum {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+}

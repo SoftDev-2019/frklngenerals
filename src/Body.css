@@ -1,0 +1,132 @@
+.Body-main {
+    margin-top:15rem;
+    display: flex;
+    width: 80%;
+    height: 680px;
+  }
+  
+  .ContentBanner-sidebar {
+    background: rgb(95, 90, 90);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 740px;
+    text-align: center;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1),
+      inset 0 0 25px red;
+    z-index: 2;
+  }
+  .ContentBanner-sidebar h1 {
+      margin-top: -0.75rem;
+      text-align: center;
+      padding-top:8px;
+  }
+  .ContentBanner-sidebar p {
+      margin-bottom: 30px;
+      font-size: 1.1rem;
+      text-align: center;
+  }
+  .ContentBanner-title {
+    font-size: 1.4rem;
+    margin: 0.3rem;
+    color: white;
+    font-weight: Bold;
+    letter-spacing: 0.3rem;
+    border-top: 2px solid white;
+  }
+  .GamesBanner-title {
+    font-size: 1.5rem;
+    margin: .75rem;
+    color: White;
+    font-weight: 300;
+    font-weight: bold;
+    padding: 13px 0px;
+    background-color: black;
+    height: 57px;
+    text-align: center;
+    
+  }
+  .GamesBanner-title span {
+    font-weight: 300;
+    font-weight: bold;
+    padding-right: 400px;
+  }
+  .ContentBanner-title span {
+    font-weight: 700;
+    letter-spacing: 0;
+  }
+  .ContentBanner-content {
+    font-size: 1.2rem;
+    margin: 0px 50px;
+    color: white;
+    font-weight: 300;
+    text-align: left;
+  }
+  .GamesBanner-content {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 30px;
+  }
+  .GamesBanner-content span{
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-left: 240px;
+  }
+  .GamesBanner-span1{
+    font-size: 1.25rem;
+    font-weight: bold;
+    vertical-align: middle;
+    padding: 40px;
+  }
+  .GamesBanner-span2{
+    font-size: 1.25rem;
+    font-weight: bold;
+    vertical-align: middle;
+    padding: 20px;
+  }
+  .Body-GamesBanner {
+    height: 75%;
+    margin-top: 30px;
+    margin-left: 30px;
+    background: #d1d1d1;
+    align-self: start;
+    width: 100%;
+    overflow: scroll;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+  }
+  .ContentBanner-sidebar img {
+    width: 35%;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+    transform: rotate(90deg);
+    margin-bottom: 50px;
+    margin-top: 60px;
+    animation: slide 20s infinite;
+  }
+  .Body-SponsorBanner {
+    background:rgb(36, 34, 34); 
+    height: 20.5%;
+    margin-top: 30px;
+    margin-left: 30px;
+    align-self: start;
+    width: 100%;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .ContentBanner-text {
+    width: 100%;
+  }
+  .Jumbotron {
+    width: 45%;
+  }
+  .ContentBanner-sidebar .Jumbotron{
+    width: 1100px;
+    height: 100px;
+    background:rgb(36, 34, 34); 
+    padding-top: 20px;
+    margin: 0px 35px;
+}
+
+  
+  

@@ -1,0 +1,77 @@
+.jumbotron.sponsor {
+    height: 902px;
+    width: 1600px;
+    margin-top: 154px;
+    margin-left: 260px;
+    margin-bottom: 0px;
+    padding: 0px;
+    background: #b1a286;
+    font-family: 'Arvo', serif;
+    display: flex;
+
+    .sponsor-body {
+        height: 800px;
+        width: 600px;
+    
+        .sponsor-logo-image {
+            height: 250px;
+            width: 260px;
+            margin-top: 50px;
+            background: url('../Images/sponsorImage.jpeg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        .sponsor-list {
+            height: 450px;
+            width: 500px;
+            margin-top: 50px;
+            margin-left: 35px;
+
+            .sponsor-list-title {
+                font-size: 23px;
+                font-weight: bold;
+                padding-bottom: 10px;
+            }
+
+            .sponsor-list-link {
+                Color: #b50000;
+            }
+            
+            .sponsor-list-link:hover{
+                Color: white;
+            }
+        }
+    }
+
+    .sponsor-form {
+        height: 800px;
+        width: 1000px;
+        display: flex;
+        flex-direction: column;
+
+        .sponsor-sign-up {
+            margin-top: 7rem;
+            margin-bottom: 10px;
+            margin-left: 150px;
+            height: 600px;
+            width: 550px;
+            font-family: 'Arvo', serif;
+            border: 1px solid rgb(158, 44, 44);
+            padding: 35px;
+            background-color: rgb(36, 34, 34);
+            color: white;
+            box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1),
+            inset 0 0 25px red;
+            justify-content: center;
+            align-items: center;
+    
+            .buttons {
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 10px;
+            }
+        }
+    }
+}

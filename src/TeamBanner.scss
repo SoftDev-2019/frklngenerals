@@ -1,0 +1,70 @@
+
+.base {
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    background: rgb(36, 34, 34);
+    margin-top: 4rem;
+    
+  .banner {
+    border-top: 3px solid #b50000;
+    border-bottom: 3px solid #b50000;
+    margin: 0px;
+    padding-bottom: 10px;
+    color: #b50000;
+    letter-spacing: 0.9rem;
+    font-family: 'Arvo', serif;
+    font-size: 3.5rem;
+    padding-top: 8px;
+  }
+  
+  .circle{
+    position:absolute;
+    height:160px;
+    width:160px;
+    border-radius:50%;
+    border:3px solid #b50000;
+    left:50%;
+    margin-left:-76px;
+    top: -38px;
+    background: rgb(36, 34, 34);
+  }
+  .circle:hover {
+    animation-name: spin;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+  }
+  
+  .span-banner-text {
+      padding-left: 15rem;
+      padding-top: 5px;
+  }
+
+  .span-circle-text {
+    font-family: 'Cookie', cursive;
+    font-size: 7.5rem;
+    text-align: center;
+    align-items: center;
+    color: #b50000;
+    padding-right: 10px;
+  }
+
+}
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    30% {
+      transform: rotate(30deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    }
+    80% {
+      transform: rotate(20deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }

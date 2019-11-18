@@ -1,0 +1,51 @@
+.jumbotron.checkout-page{
+    width: 1600px;
+    background: #b1a286;
+    height: 902px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 140px;
+    margin-left: 255px;
+    margin-bottom: 0px;
+    padding: 0px;
+
+    .checkout-header {
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(26, 24, 24);
+
+    .header-block {
+        text-transform: capitalize;
+        width: 23%;
+        margin-top: 70px;
+        padding-left: 40px;
+        font-size: 20px;
+
+        &:last-child {
+        width: 15%;
+        }
+    }
+    }
+
+    .total {
+    margin-top: 30px;
+    margin-left: 0px;;
+    font-size: 25px;
+    color: red;
+    opacity: 0.9
+    }
+    .test-warning {
+        font-size: 24px;
+        color: white;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    button {
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+}

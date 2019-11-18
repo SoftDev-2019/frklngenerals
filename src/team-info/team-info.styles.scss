@@ -1,0 +1,141 @@
+    
+.jumbotron.team-info {
+    height: 1200px;
+    width: 1800px;
+    margin-top: 154px;
+    margin-left: 160px;
+    margin-bottom: 0px;
+    padding: 0px;
+    background: #b1a286;
+
+    .team-info-header {
+        display: flex;
+        flex-direction: row;
+        height: 250px;
+        width: 1800px;
+        padding-top: 50px;
+        padding-left: 40px;
+
+        .team-info-header-logo {
+            display: flex;
+            flex-direction: row;
+            height: 210px;
+            width: 260px;
+            background: url('../Images/GeneralsPracticeLogo.jpeg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            transform: rotate(-90deg);
+        }
+
+        .team-info-header-title {
+            display: block;
+            height: 210px;
+            width: 1500px;
+            padding-top: 15px;
+            padding-left: 55px;
+
+            .title {
+                font-size: 2.3rem;
+                font-weight: bold;
+            }
+
+            .city {
+                font-size: 25px;
+                font-weight: bold;
+                color: #b50000;
+            }
+
+            .staff-headcoach {
+                font-weight: bold;
+                font-size: 17px;
+            }
+
+            .staff-assistantcoaches {
+                font-size: 17px;
+            }
+
+            .team-email {
+                font-size: 17px;
+            }
+        } 
+    }
+
+    .team-info-body {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 950px;
+        width: 1800px;
+        padding-top: 50px;
+        padding-left: 37px;
+      
+        .team-info-body-menu {
+            display: block;
+            height: 210px;
+            width: 295px;
+        }
+
+        .team-info-body-menu-button:focus{ 
+            width: 75%;
+            height: 20%;
+            background:#b50000;
+            color: white;
+        }
+
+        .team-info-body-menu-button {
+            width: 75%;
+            height: 20%;
+            color: black;
+            margin-left: 20px;
+            background: rgba(209, 209, 205, 0.918);
+            border: 0.5px solid black;
+        }
+            
+        .team-info-body-menu-button-active {
+            width: 75%;
+            height: 20%;
+            background:#b50000;
+            color: white;
+            margin-left: 20px;
+        }
+
+        .team-info-body-events {
+            height: 180px;
+            width: 1450px;
+            padding-left: 20px;
+            padding-top: 6px;
+            padding-right: 50px;
+
+
+            .events-title {
+                font-size: 25px;
+                font-weight: bold;
+            }
+        }
+
+        .team-info-body-sponsors {
+            height: 250px;
+            width: 260px;
+            margin-top: 50px;
+            background: url('../Images/sponsorImage.jpeg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        .team-info-body-games {
+            height: 510px;
+            width: 1450px;
+            padding-left: 270px;
+            padding-top: 0px;
+            margin-left: 43px;
+            padding-right: 50px;
+
+            .games-title {
+                font-size: 25px;
+                font-weight: bold;
+            }
+        }
+    }
+}

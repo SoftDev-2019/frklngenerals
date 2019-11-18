@@ -1,0 +1,32 @@
+.banner-container {
+  width: 100%;
+  height: 120px;
+  border: 2px solid black;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: center;
+  background: rgb(36, 34, 34);
+  letter-spacing: 0.9rem;
+  font-family: 'Arvo', serif;
+  font-size: 3.5rem;
+
+  .banner-text {
+    display: flex;
+    color: #b50000;
+    width: 30%;
+    align-self: center;
+    letter-spacing: 0.4rem;
+
+    .banner-circle {
+      width: 9%;
+      border-radius:50%;
+      border:2px solid #b50000;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      font-family: 'Cookie', cursive;
+    }
+  }
+}
