@@ -1,13 +1,14 @@
 import React from 'react';
-import HomePageContent from './HomePageContent.component';
 import './Home.styles.scss';
-
+import HomePageResponsive from './homepage_responsive/homepage_responsive.component';
 
 
 const Home = () => (
-  <div className='jumbotron home-div'>
-    <div className='home-container'>
-        <HomePageContent />
+  <div className='container'>
+    <div className='row'>
+      <div className='col justify-content-center'>
+        <HomePageResponsive />
+      </div>
     </div>
   </div>
 );

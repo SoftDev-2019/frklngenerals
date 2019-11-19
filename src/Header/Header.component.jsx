@@ -12,7 +12,7 @@ import { createStructuredSelector } from 'reselect';
 
 const Header = ({ currentUser, hidden }) => (
     <nav className="navbar fixed-top navbar-expand-xl navbar-dark">
-    <NavLink className="navbar-brand bg-light" to='/homepage'>FG</NavLink>
+    <NavLink className="navbar-brand" to='/homepage'><i className="fas fa-baseball-ball fa-sm"><span className='brand-span'>FG</span></i></NavLink>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

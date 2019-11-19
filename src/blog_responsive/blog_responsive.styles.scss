@@ -1,12 +1,12 @@
 .container {
     height: 1200px;
-    margin-top: 152px;
+    margin-top: 150px;
     background: #b1a286;
     font-family: 'Arvo', serif;
     padding-top: 25px;
 
     .row {
-        height: 36%;
+        height: 45%;
         margin: 20px;
         border-bottom: 2px solid white;
     }
@@ -16,11 +16,20 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 90%;
-        height: 70%;
+        width: 70%;
+        height: 45%;
         margin-top: 20px;
     }
     .blog-image-sm {
+        background-image: url('../Images/generals1.jpeg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70%;
+        height: 45%;
+        margin-top: 20px;
+    }
+    .blog-image-1 {
         background-image: url('../Images/FallClassic.PNG');
         background-position: center;
         background-repeat: no-repeat;
@@ -29,7 +38,15 @@
         height: 45%;
         margin-top: 20px;
     }
-
+    .blog-image-1-sm {
+        background-image: url('../Images/FallClassic.PNG');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70%;
+        height: 45%;
+        margin-top: 20px;
+    }
     .card-block {
         margin-top: 20px;
     }

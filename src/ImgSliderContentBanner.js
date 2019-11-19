@@ -17,7 +17,7 @@ class ImgSliderContentBanner extends Component {
     render() {
         return (
             <div className='ImgSliderContentBanner'>
-                <SwiftSlider showDots={false} height={800} data={data}/>
+                <SwiftSlider showDots={false} height={530} data={data}/>
             </div>
         );
     }

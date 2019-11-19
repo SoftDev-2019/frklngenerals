@@ -40,11 +40,11 @@ class BlogResponsive extends Component {
                     </div>
                 </div>
                 <div className="row">
-                <div className='col-md-4 blog-image d-none d-lg-block'></div>
+                <div className='col-md-4 blog-image-1 d-none d-lg-block'></div>
                     <div className="col-md-8 col-12-xs d-none d-lg-block blog-col">
                         <div className="card-block px-2">
                             <Link exact to='/blog' style={{ color: 'red' }} className='blogLink'>
-                                <h4 className='card-title'>Generals get 1st win!</h4>
+                                <h4 className='card-title'>Let the tournaments begin!</h4>
                             </Link>
                             <p className='card-subtitle'>Sep 28th</p>
                             <p className='card-subtitle'>TN Game 7 Fall Classic</p>

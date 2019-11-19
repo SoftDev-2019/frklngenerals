@@ -5,8 +5,8 @@ import ImgSliderContentBanner from './ImgSliderContentBanner';
 
 const HomePageContent = () => (
     <div className='homepage-content'>
-       <ImgSliderContentBanner />
-    </div>
+        <ImgSliderContentBanner />
+    </div>    
 );
 
 export default HomePageContent;
