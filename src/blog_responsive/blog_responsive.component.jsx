@@ -6,8 +6,8 @@ import './blog_responsive.styles.scss';
 class BlogResponsive extends Component {
     render() {
         return (
-            <div class="container">
-                <div class="row">
+            <div class="container blog-container">
+                <div class="row blog-row">
                     <div className='col-md-4 blog-image d-none d-lg-block'></div>
                     <div className="col-md-8 col-12-xs d-none d-lg-block blog-col">
                         <div className="card-block px-2">
@@ -39,7 +39,7 @@ class BlogResponsive extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row blog-row">
                 <div className='col-md-4 blog-image-1 d-none d-lg-block'></div>
                     <div className="col-md-8 col-12-xs d-none d-lg-block blog-col">
                         <div className="card-block px-2">

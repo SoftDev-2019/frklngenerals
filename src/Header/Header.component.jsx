@@ -10,14 +10,14 @@ import { selectCurrentUser } from '../redux/user/user.selectors';
 import { createStructuredSelector } from 'reselect';
 
 
-const Header = ({ currentUser, hidden }) => (
-    <nav className="navbar fixed-top navbar-expand-xl navbar-dark">
-    <NavLink className="navbar-brand" to='/homepage'><i className="fas fa-baseball-ball fa-sm"><span className='brand-span'>FG</span></i></NavLink>
+const Header = ({ currentUser, hidden, displayName}) => (
+    <nav className="navbar fixed-top navbar-expand-lg navbar-dark">
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav">
+                <NavLink className="navbar-brand" to='/homepage'><i className="fas fa-baseball-ball fa-sm"></i><span className='brand-span'>FG</span></NavLink>
+                    <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li className="nav-item">
                         <NavLink className="nav-link" exact to='/teaminfo'>Team-Info <span className="sr-only">(current)</span></NavLink>
                         </li>
@@ -30,8 +30,14 @@ const Header = ({ currentUser, hidden }) => (
                         <li className="nav-item">
                         <NavLink className="nav-link" exact to='/blog'>Blog <span className="sr-only">(current)</span></NavLink>
                         </li>
+                        <li className="nav-item">
+                        <NavLink className="nav-link" exact to='/test'>Test <span className="sr-only">(current)</span></NavLink>
+                        </li>
                     </ul>
                     <ul className="right-ul navbar-nav ml-auto">
+                        <li className='current-user-display' style={{color: 'yellow'}}>
+                            { currentUser ? currentUser.displayName : ''}
+                        </li>
                         <li className="nav-item active">
                             { currentUser ? <div className="nav-link" onClick={() => auth.signOut()}>Sign Out<span className="sr-only">(current)</span></div>: ''}
                         </li>

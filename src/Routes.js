@@ -14,6 +14,8 @@ import CheckoutPage from './checkout/checkout.component';
 import TeamShopLanding from './teamshoplanding/teamshoplanding.component';
 import ShopPage from './shop/shop.component';
 import BlogResponsive from './blog_responsive/blog_responsive.component';
+import TestBed from './test_bed/test_bed.component';
+import LandingPageSignUp from './landing-page/landing-page.component';
 
 
 
@@ -31,7 +33,7 @@ class Routes extends Component {
                 <Route 
                     exact='true'
                     path='/'
-                    render={() => this.props.currentUser ? (<Home/>) : (<LandingPage />)}
+                    render={() => this.props.currentUser ? (<Home/>) : (<LandingPageSignUp />)}
                 />
                 <Route 
                     exact='true'
@@ -77,6 +79,11 @@ class Routes extends Component {
                     exact='true'
                     path='/blog'
                     render={() => this.props.currentUser ? <BlogResponsive /> : (<Redirect to='/signin' />)}
+                />
+                  <Route 
+                    exact='true'
+                    path='/test'
+                    component={TestBed}
                 />
                 <Route 
                     exact='true'

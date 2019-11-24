@@ -1,7 +1,13 @@
-.container.home-container {
-    height: 902px;
-    padding-top: 5px;
-    background: #b1a286;
-    font-family: 'Arvo', serif;
+.flex-viewport {
+    overflow: hidden;
+    position: relative;
+    height: 1042px;
+    width: 100vw;
+    background-image: url('./Images/generals1.jpeg');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 100px;
 
 }

@@ -1,7 +1,8 @@
 .jumbotron.checkout-page{
     width: 1600px;
     background: #b1a286;
-    height: 902px;
+    min-height: 902px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;

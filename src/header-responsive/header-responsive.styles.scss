@@ -25,10 +25,11 @@
 
         .header-responsive-content-title {
             opacity: 0.8;
-            font-size: 20px;
+            font-size: 14px;
             letter-spacing: 10px;
             color: #b50000;
             padding-top: 4px;
+            font-weight: bold;
             
             @media screen and (min-width: 698px) and (max-width: 850px) {
                 opacity: 0.8;
@@ -42,6 +43,13 @@
                 font-size: 50px;
                 letter-spacing: 15x;
                 color: #b50000;
+            }
+            @media screen and (min-width: 0px) and (max-width: 320px) {
+                opacity: 0.8;
+                font-size: 8px;
+                letter-spacing: 15x;
+                color: #b50000;
+                font-weight: bold;
             }
 
             .fas {

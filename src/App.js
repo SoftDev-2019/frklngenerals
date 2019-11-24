@@ -9,6 +9,7 @@ import { setCurrentUser } from './redux/user/user.actions';
 import { createStructuredSelector } from 'reselect';
 import { selectCurrentUser } from './redux/user/user.selectors';
 import Footer from './footer/footer.component';
+import { selectCollectionsForPreview } from './redux/shop/shop.selectors';
 
 class App extends Component {
     static defaultProps = {
@@ -28,7 +29,8 @@ class App extends Component {
                    ...snapShot.data()
                  });
                });
-              } else {setCurrentUser(userAuth)};
+              } 
+                setCurrentUser(userAuth);
       });
     }
 
@@ -48,7 +50,8 @@ class App extends Component {
 }
 
 const mapStateToProps = createStructuredSelector({ 
-  currentUser: selectCurrentUser
+  currentUser: selectCurrentUser,
+  collectionsArray: selectCollectionsForPreview
 });
 
 const mapDispatchToProps = dispatch => ({

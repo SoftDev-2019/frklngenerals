@@ -1,11 +1,11 @@
-.container {
+.container.blog-container {
     height: 1200px;
     margin-top: 150px;
     background: #b1a286;
     font-family: 'Arvo', serif;
     padding-top: 25px;
 
-    .row {
+    .row.blog-row {
         height: 45%;
         margin: 20px;
         border-bottom: 2px solid white;
