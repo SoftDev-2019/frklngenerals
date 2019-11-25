@@ -29,36 +29,42 @@ class SignIn extends Component {
     }
     render() {
         return (
-            <div className='jumbotron sign-in-container'>
-                <div className='sign-in'>
-                    <h3>I already have an account</h3>
-                    <span>Sign in with your email and password</span>
-                    <form onSubmit={this.handleSubmit}>
-                        <FormInput
-                            label= 'email'
-                            name='email' 
-                            type='email' 
-                            value={this.state.email} 
-                            required 
-                            handleChange={this.handleChange}
-                        />
-                        <FormInput 
-                            label='password'
-                            name='password' 
-                            type='password' 
-                            value={this.state.password} 
-                            required
-                            handleChange={this.handleChange}
-                        />
-                        <div className='buttons'>
-                            <CustomButton type='submit'>SIGN IN</CustomButton>
-                            <CustomButton onClick={ signInWithGoogle } isGoogleSignIn>
-                                {' '}
-                                SIGN IN WITH GOOGLE{' '}
-                            </CustomButton>
+            <div className='container-fluid sign-in-container'>
+                <div className='row sign-in-row'>
+                    <div className='col-3 sign-in-col-fence'></div>
+                    <div className='col-6 sign-in-col'>
+                        <div className='container sign-in-container-form'>
+                            <h3 className='sign-in-title'>I already have an account</h3>
+                            <span>Sign in with your email and password</span>
+                            <form onSubmit={this.handleSubmit}>
+                                <FormInput
+                                    label= 'email'
+                                    name='email' 
+                                    type='email' 
+                                    value={this.state.email} 
+                                    required 
+                                    handleChange={this.handleChange}
+                                />
+                                <FormInput 
+                                    label='password'
+                                    name='password' 
+                                    type='password' 
+                                    value={this.state.password} 
+                                    required
+                                    handleChange={this.handleChange}
+                                />
+                                <div className='buttons'>
+                                    <CustomButton type='submit'>SIGN IN</CustomButton>
+                                    <CustomButton onClick={ signInWithGoogle } isGoogleSignIn>
+                                        {' '}
+                                        SIGN IN WITH GOOGLE{' '}
+                                    </CustomButton>
+                                </div>
+                            </form>
+                            <Link className='sign-up-link' exact to='/signup'>Create Account</Link>
                         </div>
-                    </form>
-                    <Link className='sign-up-link' exact to='/signup'>Create Account</Link>
+                    </div>
+                    <div className='col-3 sign-in-col-fence'></div>
                 </div>
             </div>
         );
