@@ -1,0 +1,416 @@
+
+@media screen and (min-width: 300px) and (max-width: 374px) {
+    .sponsorsres-container {
+        margin-top: 145px;
+        padding-bottom: 20px;
+        min-height: 300px;
+        height: auto;
+        background: #b1a286;
+        font-family: 'Arvo', serif;
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-items: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+    
+    .sponsorsres-row {
+       height: auto;
+    }
+    
+    .sponsorsres-col-content {
+       display: flex;
+       flex-direction: column;
+       
+       
+        .sponsorsres-col-content-image {
+            min-height: 100px;
+            width: 100%;
+            background: url('../Images/sponsorImage.jpeg');
+            background-position: left;
+            background-repeat: no-repeat;
+            background-size: cover;
+        } 
+
+        .sponsors-col-content-team-sponsors {
+           
+
+            .sponsors-col-content-team-sponsors-title {
+                display: none;
+
+            }
+
+            .sponsors-col-content-team-sponsors-link {
+                padding-top: 0px;
+                Color: #b50000;
+                font-size: 5px;
+            }
+
+            .sponsors-col-content-team-sponsors-link:hover {
+                Color: white;
+            }
+        }
+    }
+    .sponsorsres-col-signup {
+
+        .sponsorsres-signup-title {
+            font-size: 14px;
+        }
+        
+        .sponsorsres-signup-subtitle {
+            font-size: 10px;
+        }
+        .sponsorsres-signup-form {
+            padding: 0;
+            .buttons {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+    
+@media screen and (min-width: 375px) and (max-width: 698px) {
+    .sponsorsres-container {
+        margin-top: 145px;
+        padding-bottom: 20px;
+        min-height: 300px;
+        height: auto;
+        background: #b1a286;
+        font-family: 'Arvo', serif;
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-items: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+    
+    .sponsorsres-row {
+       height: auto;
+    }
+    
+    .sponsorsres-col-content {
+       display: flex;
+       flex-direction: column;
+       
+       
+        .sponsorsres-col-content-image {
+            min-height: 130px;
+            width: 100%;
+            background: url('../Images/sponsorImage.jpeg');
+            background-position: left;
+            background-repeat: no-repeat;
+            background-size: cover;
+        } 
+
+        .sponsors-col-content-team-sponsors {
+           
+
+            .sponsors-col-content-team-sponsors-title {
+                display: none;
+
+            }
+
+            .sponsors-col-content-team-sponsors-link {
+                padding-top: 0px;
+                Color: #b50000;
+                font-size: 8px;
+            }
+
+            .sponsors-col-content-team-sponsors-link:hover {
+                Color: white;
+            }
+        }
+    }
+    .sponsorsres-col-signup {
+
+        .sponsorsres-signup-title {
+            font-size: 14px;
+        }
+        
+        .sponsorsres-signup-subtitle {
+            font-size: 10px;
+        }
+        .sponsorsres-signup-form {
+            padding: 0;
+            .buttons {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+   
+
+@media screen and (min-width: 698px) and (max-width: 900px) {
+    .sponsorsres-container {
+        margin-top: 145px;
+        min-height: 250px;
+        height: auto;
+        background: #b1a286;
+        font-family: 'Arvo', serif;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .sponsorsres-row {
+        min-height: 450px;
+        height: auto;
+        padding: 20px;
+       
+        padding-top: 50px;
+    }
+    
+    .sponsorsres-col-content {
+        height: auto;
+        min-height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: start;
+       
+        .sponsorsres-col-content-image {
+            min-height: 200px;
+            width: 100%;
+            background: url('../Images/sponsorImage.jpeg');
+            background-position: left;
+            background-repeat: no-repeat;
+            background-size: contain;
+        } 
+
+        .sponsors-col-content-team-sponsors {
+            min-height: 300px;
+            height: auto;
+            width: 500px;
+            margin-top: 50px;
+            margin-left: 15px;
+            display: flex;
+            flex-direction: column;
+            align-self: flex-start;
+            margin: 10px 0;
+
+            .sponsors-col-content-team-sponsors-title {
+                display: none;
+
+            }
+
+            .sponsors-col-content-team-sponsors-link {
+                padding-top: 20px;
+                Color: #b50000;
+                font-size: 13px;
+            }
+
+            .sponsors-col-content-team-sponsors-link:hover {
+                Color: white;
+            }
+        }
+    }
+    .sponsorsres-col-signup {
+        min-height: 715px;
+        font-size: 16px;
+        margin-left: 0px;
+
+        .sponsorsres-signup-title {
+            font-size: 24px;
+        }
+
+        .sponsorsres-signup-form {
+            height: auto;
+            width: 100%;
+            font-family: 'Arvo', serif;
+            border: 1px solid rgb(158, 44, 44);
+            padding: 30px;
+            background-color: rgb(36, 34, 34);
+            color: white;
+            box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1),
+            inset 0 0 10px red;
+           
+            .buttons {
+                margin-top: 40px;
+            }
+        }
+    }
+}
+    
+@media screen and (min-width: 900px) and (max-width: 1024px) {
+    .sponsorsres-container {
+        margin-top: 145px;
+        min-height: 650px;
+        height: auto;
+        background: #b1a286;
+        font-family: 'Arvo', serif;
+        max-width: 100%;
+    }
+    
+    .sponsorsres-row {
+        height: 650px;
+        padding: 20px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    
+    .sponsorsres-col-content {
+        height: auto;
+        min-height: 902px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: start;
+       
+        .sponsorsres-col-content-image {
+            min-height: 300px;
+            width: 100%;
+            margin-top: 50px;
+            background: url('../Images/sponsorImage.jpeg');
+            background-position: left;
+            background-repeat: no-repeat;
+            background-size: contain;
+        } 
+
+        .sponsors-col-content-team-sponsors {
+            height: 450px;
+            width: 500px;
+            margin-top: 50px;
+            margin-left: 35px;
+            display: flex;
+            flex-direction: column;
+            align-self: flex-start;
+            margin: 40px 0;
+
+            .sponsors-col-content-team-sponsors-title {
+                font-size: 16px;
+                font-weight: bold;
+                padding-bottom: 10px;
+
+            }
+
+            .sponsors-col-content-team-sponsors-link {
+                Color: #b50000;
+            }
+
+            .sponsors-col-content-team-sponsors-link:hover {
+                Color: white;
+            }
+        }
+    }
+    .sponsorsres-col-signup {
+        min-height: 902px;
+        font-size: 14px;
+        .sponsorsres-signup-title {
+            font-size: 20px;
+        }
+
+        .sponsorsres-signup-form {
+            height: auto;
+            width: 90%;
+            font-family: 'Arvo', serif;
+            border: 1px solid rgb(158, 44, 44);
+            padding: 50px;
+            background-color: rgb(36, 34, 34);
+            color: white;
+            box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1),
+            inset 0 0 10px red;
+           
+            .buttons {
+                margin-top: 40px;
+            }
+        }
+    }
+}
+   
+@media screen and (min-width: 1025px) and (max-width: 4000px) {
+    .sponsorsres-container {
+        margin-top: 145px;
+        min-height: 700px;
+        height: auto;
+        background: #b1a286;
+        font-family: 'Arvo', serif;
+        max-width: 70%;
+    }
+    
+    .sponsorsres-row {
+        height: 750px;
+        padding: 20px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    
+    .sponsorsres-col-content {
+        height: auto;
+        min-height: 902px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: start;
+       
+    
+        .sponsorsres-col-content-image {
+            min-height: 300px;
+            width: 100%;
+            margin-top: 50px;
+            background: url('../Images/sponsorImage.jpeg');
+            background-position: left;
+            background-repeat: no-repeat;
+            background-size: contain;
+        } 
+
+        .sponsors-col-content-team-sponsors {
+            height: 450px;
+            width: 500px;
+            margin-top: 50px;
+            margin-left: 35px;
+            display: flex;
+            flex-direction: column;
+            align-self: flex-start;
+            margin: 40px 0;
+
+            .sponsors-col-content-team-sponsors-title {
+                font-size: 23px;
+                font-weight: bold;
+                padding-bottom: 10px;
+
+            }
+
+            .sponsors-col-content-team-sponsors-link {
+                Color: #b50000;
+            }
+
+            .sponsors-col-content-team-sponsors-link:hover {
+                Color: white;
+            }
+        }
+    }
+    .sponsorsres-col-signup {
+        min-height: 902px;
+        font-size: 14px;
+
+        .sponsorsres-signup-form {
+            height: auto;
+            width: 80%;
+            font-family: 'Arvo', serif;
+            border: 1px solid rgb(158, 44, 44);
+            padding: 50px;
+            background-color: rgb(36, 34, 34);
+            color: white;
+            box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1),
+            inset 0 0 10px red;
+           
+            .buttons {
+                margin-top: 40px;
+            }
+        }
+    }
+}

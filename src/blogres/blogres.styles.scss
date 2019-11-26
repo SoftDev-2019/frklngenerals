@@ -1,192 +1,386 @@
 .blogres-container {
-    margin-top: 70px;
-    min-height: 500px;
+    margin-top: 150px;
+    min-height: 902px;
     height: auto;
     background: rgb(36, 34, 34);
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    background: #b1a286;
+    padding-left: 50px;
+    font-family: 'Arvo', serif;
 }
 
 .blogres-row {
     height: 150px;
-    padding: 20px;
     height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 100px;
+    padding-top: 70px;
+    background: #b1a286;
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
 }
 
-.blogres-col {
+.blogres-col-image-1 {
     height: auto;
-    min-height: 200px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-size: 12px;
-}
+    min-height: 280px;
+    background-image: url('../Images/generals1.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: top;
+    max-width: 100%;
+    margin-left: 100px;
+}   
+
+.blogres-col-content {
+    height: auto;
+    max-width: 100%;
+    min-height: 280px;
+
+    .blogres-col-content-title {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .blogres-col-content-subtitle {
+        font-size: 17px;
+        color: white;
+    }
+}  
+
+.blogres-col-image-2 {
+    height: auto;
+    min-height: 280px;
+    background-image: url('../Images/FallClassic.PNG');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: top;
+    max-width: 100%;
+    margin-left: 100px;
+}  
 
 
 @media screen and (min-width: 300px) and (max-width: 375px) {
     .blogres-container {
-        margin-top: 108px;
-        min-height: 935px;
+        margin-top: 150px;
+        min-height: 600px;
         height: auto;
         background: rgb(36, 34, 34);
-        width: 100%;
-    }
-    .blogres-row {
-        height: 550px;
-        padding: 20px;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding-top: 30px;
-        min-width: 100%;
-    }
-    
-    .blogres-col {
-        height: auto;
-        min-height: 550px;
-        display: flex;
-        flex-direction: column;
-        min-width: 110%;
-        font-size: 13px;
-        margin-left: -15px;
-    }
-} 
-      
-@media screen and (min-width: 376px) and (max-width: 698px) {
-    .blogres-container {
-        margin-top: 108px;
-        min-height: 935px;
-        height: auto;
-        background: rgb(36, 34, 34);
-        width: 100%;
-    }
-    .blogres-row {
-        height: 550px;
-        padding: 20px;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding-top: 30px;
-        min-width: 100%;
-    }
-    
-    .blogres-col {
-        height: auto;
-        min-height: 550px;
-        display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        min-width: 100%;
-        font-size: 13px;
+        max-width: 100%;
+        background: #b1a286;
+        padding-left: 50px;
+        font-family: 'Arvo', serif;
     }
+   
+    .blogres-row {
+        height: 150px;
+        height: auto;
+        padding-top: 70px;
+        background: #b1a286;
+        margin: 0 auto;
+    }
+    
+    .blogres-col-image-1 {
+        height: auto;
+        min-height: 150px;
+        background-image: url('../Images/generals1.jpeg');
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-position: top;
+        max-width: 100%;
+        margin-left: 10px;
+    }   
+
+    .blogres-col-content {
+        height: auto;
+        max-width: 100%;
+        min-height: 180px;
+
+        .blogres-col-content-title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .blogres-col-content-subtitle {
+            font-size: 13px;
+            color: white;
+        }
+        .blogres-col-content-text {
+            display: none;
+        }
+
+        .btn {
+            font-size: 10px;
+        }
+    }  
+    
+    .blogres-col-image-2 {
+        height: auto;
+        min-height: 280px;
+        background-image: url('../Images/FallClassic.PNG');
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-position: top;
+        max-width: 100%;
+        margin-left: 10px;
+    }  
+}
+
+@media screen and (min-width: 376px) and (max-width: 698px) {
+    .blogres-container {
+        margin-top: 150px;
+        min-height: 495px;
+        height: auto;
+        background: rgb(36, 34, 34);
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        background: #b1a286;
+        padding-left: 50px;
+        font-family: 'Arvo', serif;
+    }
+   
+    .blogres-row {
+        height: 230px;
+        padding-top: 70px;
+        background: #b1a286;
+        margin: 0 auto;
+    }
+    
+    .blogres-col-image-1 {
+        height: auto;
+        min-height: 280px;
+        background-image: url('../Images/generals1.jpeg');
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-position: top;
+        max-width: 100%;
+        margin-left: 10px;
+    }   
+
+    .blogres-col-content {
+        height: auto;
+        max-width: 100%;
+        min-height: 280px;
+
+        .blogres-col-content-title {
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .blogres-col-content-subtitle {
+            font-size: 11px;
+            color: white;
+        }
+        .btn {
+            font-size: 10px;
+        }
+        .blogres-col-content-text {
+            display: none;
+        }
+    }  
+    
+    .blogres-col-image-2 {
+        height: auto;
+        min-height: 280px;
+        background-image: url('../Images/FallClassic.PNG');
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-position: top;
+        max-width: 100%;
+        margin-left: 10px;
+    }  
 }
 
 @media screen and (min-width: 698px) and (max-width: 900px) {
     .blogres-container {
-        margin-top: 70px;
-        min-height: 970px;
-        height: auto;
-        background: rgb(36, 34, 34);
-    }
-    .blogres-row {
-        height: 550px;
-        padding: 20px;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding-top: 150px;
-    }
-    
-    .blogres-col {
-        box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1),
-        inset 0 0 25px red;
-        height: auto;
-        min-height: 450px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-}
-@media screen and (min-width: 900px) and (max-width: 1024px) {
-    .blogres-container {
-        margin-top: 70px;
-        min-height: 970px;
-        background: rgb(36, 34, 34);
-        height: auto;
-    }
-   
-    .blogres-row {
-        height: 550px;
-        padding: 20px;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding-top: 220px;
-    }
-    
-    .blogres-col {
-        box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1),
-        inset 0 0 25px red;
-        height: auto;
-        min-height: 550px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background: #b1a286;
-    }
-}
-@media screen and (min-width: 1025px) and (max-width: 4000px) {
-    .blogres-container {
-        margin-top: 70px;
+        margin-top: 150px;
         min-height: 902px;
         height: auto;
         background: rgb(36, 34, 34);
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        background: #b1a286;
+        font-family: 'Arvo', serif;
+        padding-bottom: 30px;
     }
    
     .blogres-row {
-        height: 550px;
-        padding: 200px;
+        height: 150px;
         height: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding-top: 220px;
-        border: 2px solid red;
+        padding-top: 70px;
+        background: #b1a286;
+        margin: 0 auto;
     }
     
-    .blogres-col-image {
-        box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1),
-        inset 0 0 25px red;
+    .blogres-col-image-1 {
         height: auto;
-        min-height: 550px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        background: #b1a286;
-        border: 2px dotted green;
+        min-height: 280px;
+        background-image: url('../Images/generals1.jpeg');
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-position: top;
+        max-width: 100%;
+        margin-left: 50px;
     }   
 
     .blogres-col-content {
-        box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1),
-        inset 0 0 25px red;
         height: auto;
-        min-height: 550px;
-        display: flex;
+        max-width: 100%;
+        min-height: 280px;
+
+        .blogres-col-content-title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .blogres-col-content-subtitle {
+            font-size: 13px;
+            color: white;
+        }
+        .blogres-col-content-text {
+          
+        }
+    }  
+    
+    .blogres-col-image-2 {
+        height: auto;
+        min-height: 280px;
+        background-image: url('../Images/FallClassic.PNG');
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-position: top;
+        max-width: 100%;
+        margin-left: 50px;
+    }  
+}
+
+@media screen and (min-width: 900px) and (max-width: 1024px) {
+    .blogres-container {
+        margin-top: 150px;
+        min-height: 955px;
+        height: auto;
+        background: rgb(36, 34, 34);
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        max-width: 100%;
         background: #b1a286;
-        border: 2px dotted orange;
+        font-family: 'Arvo', serif;
+    }
+   
+    .blogres-row {
+        height: 150px;
+        height: auto;
+        padding-top: 70px;
+        background: #b1a286;
+        margin: 0 auto;
+    }
+    
+    .blogres-col-image-1 {
+        height: auto;
+        min-height: 280px;
+        background-image: url('../Images/generals1.jpeg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-position: top;
+        max-width: 100%;
+        margin-left: 50px;
     }   
+
+    .blogres-col-content {
+        height: auto;
+        max-width: 100%;
+        min-height: 280px;
+
+        .blogres-col-content-title {
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .blogres-col-content-subtitle {
+            font-size: 17px;
+            color: white;
+        }
+    }  
+    
+    .blogres-col-image-2 {
+        height: auto;
+        min-height: 280px;
+        background-image: url('../Images/FallClassic.PNG');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-position: top;
+        max-width: 100%;
+        margin-left: 50px;
+    }  
+}
+
+@media screen and (min-width: 1025px) and (max-width: 4000px) {
+    .blogres-container {
+        margin-top: 150px;
+        min-height: 902px;
+        height: auto;
+        background: rgb(36, 34, 34);
+        flex-direction: column;
+        align-items: center;
+        max-width: 70%;
+        background: #b1a286;
+        padding-left: 50px;
+        font-family: 'Arvo', serif;
+    }
+   
+    .blogres-row {
+        height: 150px;
+        height: auto;
+        padding-top: 70px;
+        background: #b1a286;
+        margin: 0 auto;
+    }
+    
+    .blogres-col-image-1 {
+        height: auto;
+        min-height: 280px;
+        background-image: url('../Images/generals1.jpeg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-position: top;
+        max-width: 100%;
+        margin-left: 100px;
+    }   
+
+    .blogres-col-content {
+        height: auto;
+        max-width: 100%;
+        min-height: 280px;
+
+        .blogres-col-content-title {
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .blogres-col-content-subtitle {
+            font-size: 17px;
+            color: white;
+        }
+    }  
+    
+    .blogres-col-image-2 {
+        height: auto;
+        min-height: 280px;
+        background-image: url('../Images/FallClassic.PNG');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-position: top;
+        max-width: 100%;
+        margin-left: 100px;
+    }  
 }
