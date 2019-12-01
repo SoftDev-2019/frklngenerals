@@ -48,7 +48,7 @@ class TeamInfo extends Component {
                     </div>
                     <div className='flex-conatiner team-info-body'>
                         <div className='team-info-body-menu'>
-                        <button className={`${this.state.isTeamInfo ? 'btn team-info-body-menu-button-active': 'btn team-info-body-menu-button'}`} onClick={this.handleClick1}>TEAM INFO</button>
+                            <button className={`${this.state.isTeamInfo ? 'btn team-info-body-menu-button-active': 'btn team-info-body-menu-button'}`} onClick={this.handleClick1}>TEAM INFO</button>
                             <button  type="button" className='btn team-info-body-menu-button' onClick={this.handleClick2}>ROSTER</button>
                             <button  type="button" className='btn team-info-body-menu-button' onClick={this.handleClick3}>UPCOMING EVENTS</button>
                             <div className='team-info-body-sponsors'></div>

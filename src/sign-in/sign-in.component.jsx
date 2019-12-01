@@ -61,7 +61,7 @@ class SignIn extends Component {
                                     </CustomButton>
                                 </div>
                             </form>
-                            <Link className='sign-up-link' exact to='/signup'>Create Account</Link>
+                            <Link className='sign-up-link-create-account' exact to='/signup'>Create Account</Link>
                         </div>
                     </div>
                     <div className='col-3 sign-in-col-fence'></div>

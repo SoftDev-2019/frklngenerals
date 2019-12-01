@@ -34,6 +34,7 @@ class SponsorsRes extends Component {
                 company: '',
                 phone: ''
             });
+            alert("Submission Successful.  Thank you for your support of the Franklin Generals")
         } catch (error) {
             console.error(error);
         }
@@ -65,7 +66,7 @@ class SponsorsRes extends Component {
                     <div className='col-8 sponsorsres-col-signup'>
                         <div className='container sponsorsres-signup-form'>
                             <h2 className='sponsorsres-signup-title'>Become a team sponsor</h2>
-                            <span className='sponsorsres-signup-subtitle'>Please complete the form below</span>
+                            <span className='sponsorsres-signup-subtitle'>Please complete the form below and someone will contact you shortly.</span>
                             <form className='sponsorsres-signup-form' onSubmit={this.handleSubmit}>
                                 <FormInput
                                     type='text'

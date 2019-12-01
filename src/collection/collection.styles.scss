@@ -20,4 +20,22 @@
       }
     }
   }
+  @media screen and (min-width: 300px) and (max-width: 375px) {
+    .collection-page {
+     
+      .title {
+        font-size: 20px;
+        margin: 0 auto 30px;
+      }
+    }
+  }
+  @media screen and (min-width: 376px) and (max-width: 698px) {
+    .collection-page {
+     
+      .title {
+        font-size: 20px;
+        margin: 0 auto 30px;
+      }
+    }
+  }
   

@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import TeamInfo from './team-info/team-info.component';
 import Roster from './Roster';
-import Sponsor from './sponsor/Sponsor.component';
-import Home from './Home';
+import HomePage from './homepage/homepage.component';
 import PlayerDetails from './PlayerDetails';
 import SignInAndSignUp from './sign-in-and-sign-up';
 import SignUp from './sign-up/sign-up.component';
@@ -31,7 +30,7 @@ class Routes extends Component {
                 <Route 
                     exact='true'
                     path='/'
-                    render={() => this.props.currentUser ? (<Home/>) : (<LandingPageSignUp />)}
+                    render={() => this.props.currentUser ? (<HomePage />) : (<LandingPageSignUp />)}
                 />
                 <Route 
                     exact='true'
@@ -46,22 +45,12 @@ class Routes extends Component {
                 <Route 
                     exact
                     path='/homepage'
-                    render={() => this.props.currentUser ? (<Home />) : (<Redirect to='/signin' />)}
+                    render={() => this.props.currentUser ? (<HomePage />) : (<Redirect to='/signin' />)}
                 />
                 <Route 
                     exact='true'
                     path='/checkout'
                     render={() => this.props.currentUser ? (<CheckoutPage />) : (<Redirect to='/signin' />)}
-                />
-                <Route 
-                    exact='true'
-                    path='/roster'
-                    render={() => this.props.currentUser ? <Roster players={this.props.players}/> : (<Redirect to='/signin' />)}
-                />
-                <Route 
-                    exact='true'
-                    path='/teaminfo'
-                    render={() => this.props.currentUser ? <TeamInfo /> : (<Redirect to='/signin' />)}
                 />
                 <Route 
                     exact='true'
@@ -78,18 +67,7 @@ class Routes extends Component {
                     path='/blog'
                     render={() => this.props.currentUser ? <BlogRes /> : (<Redirect to='/signin' />)}
                 />
-                  <Route 
-                    exact='true'
-                    path='/test'
-                    component={TestBed}
-                />
-                <Route 
-                    exact='true'
-                    path='/roster/:lastName'
-                    render={getPlayer}
-                />
                 <Route path='/teamshop/shop' component={ShopPage} />
-              
             </Switch>
         )
     }

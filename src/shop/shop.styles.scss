@@ -1,6 +1,7 @@
-.jumbotron.collection-page-container {
-    height: 872px;
-    width: 1600px;
+.collection-page-container {
+    min-height: 1135px;
+    height: auto;
+    max-width: 80%;
     margin-top: 140px;
     margin-left: 255px;
     margin-bottom: 0px;
@@ -11,5 +12,105 @@
         padding-top: 75px;
     }
 
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 375px) {
+    .collection-page-container {
+        min-height: 650px;
+        height: auto;
+        margin-top: 140px;
+        margin-left: 255px;
+        margin-bottom: 0px;
+        padding: 0px;
+        background: #b1a286;
+        max-width: 100%;
+    
+        .shop-page {
+            padding-top: 50px;
+        }
+    
+    
+    }
+
+
+}
+
+@media screen and (min-width: 376px) and (max-width: 698px) {
+    .collection-page-container {
+        min-height: 650px;
+        height: auto;
+        margin-top: 140px;
+        margin-left: 255px;
+        margin-bottom: 0px;
+        padding: 0px;
+        background: #b1a286;
+        max-width: 100%;
+    
+        .shop-page {
+            padding-top: 50px;
+        }
+    
+    
+    }
+
+}
+
+@media screen and (min-width: 698px) and (max-width: 900px) {
+    .collection-page-container {
+        min-height: 795px;
+        height: auto;
+        max-width: 80%;
+        margin-top: 140px;
+        margin-left: 255px;
+        margin-bottom: 0px;
+        padding: 0px;
+        background: #b1a286;
+    
+        .shop-page {
+            padding-top: 75px;
+        }
+    
+    
+    }
+
+}
+
+@media screen and (min-width: 900px) and (max-width: 1024px) {
+    .collection-page-container {
+        min-height: 1135px;
+        height: auto;
+        max-width: 80%;
+        margin-top: 140px;
+        margin-left: 255px;
+        margin-bottom: 0px;
+        padding: 0px;
+        background: #b1a286;
+    
+        .shop-page {
+            padding-top: 75px;
+        }
+    
+    
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 4000px) {
+    .collection-page-container {
+        min-height: 1135px;
+        height: auto;
+        max-width: 80%;
+        margin-top: 140px;
+        margin-left: 255px;
+        margin-bottom: 0px;
+        padding: 0px;
+        background: #b1a286;
+    
+        .shop-page {
+            padding-top: 75px;
+        }
+    
+    
+    }
 
 }

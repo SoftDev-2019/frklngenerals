@@ -1,0 +1,21 @@
+.container-fluid.upcomingevents-page-sm-data {   
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-self: flex-start;
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 92%;
+    font-family: 'Arvo', serif;
+
+    .upcomingevents-page-sm-data-row {
+        text-align: left;
+
+        .upcomingevents-page-sm-data-header {
+            font-size: 10px;
+        }
+        .upcomingevents-page-sm-table-row {
+            font-size: 10px;
+        }
+    }
+}

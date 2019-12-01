@@ -6,12 +6,13 @@
 }
 
 .game-data-tr {
-    font-size: smaller;
-    font-weight: bold;
 
     .roster-data-jerseynum {
         display: flex;
-        text-align: center;
-        justify-content: center;
+        flex-direction: column;
+        align-self: flex-start;
+        justify-self: flex-start;
+        padding: 0px;
+        font-size: 4px;
     }
 }

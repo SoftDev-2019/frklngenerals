@@ -3,10 +3,12 @@ import './teamshoplanding.styles.scss';
 import Directory from '../directory/directory.component';
 
 const TeamShopLanding = () => (
-    <div className='jumbotron teamshoplanding-container'>
-        <div className='teamshoplanding'>
-            <h1 className='teamshopLanding-title'>TEAM SHOP</h1>
-            <Directory />
+    <div className='container-fluid teamshoplanding-container'>
+        <div className='row teamshoplanding-row'>
+            <div className='col-12 teamshoplanding-col'>
+                <h1 className='teamshopLanding-col-title'>TEAM SHOP</h1>
+                <Directory />
+            </div>  
         </div>
     </div>
 )

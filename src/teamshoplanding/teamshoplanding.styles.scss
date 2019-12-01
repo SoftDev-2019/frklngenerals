@@ -1,14 +1,169 @@
-.jumbotron.teamshoplanding-container {
-    height: auto;
-    width: 80vw;
-    margin: 0 auto;
-    background: #b1a286;
-    padding-top: 150px;
-    font-family: 'Arvo', serif;
-    display: flex;
-    justify-content: center;
 
-    .teamshoplanding {
+@media screen and (min-width: 300px) and (max-width: 374px) {
+    .teamshoplanding-container {
+        margin-top: 145px;
+        min-height: 700px;
+        height: auto;
+        background: #b1a286;
+        font-family: 'Arvo', serif;
+        max-width: 90%;
+    }
+    
+    .teamshoplanding-row {
+        height: 750px;
+        padding: 20px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    
+    .teamshoplanding-col {
+        height: auto;
+        min-height: 902px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: start;
+
+        .teamshopLanding-col-title {
+            font-size: 17px;
+            font-weight: bold;
+            align-self: center;
+        }
+    }
+} 
+@media screen and (min-width: 375px) and (max-width: 698px) {
+    .teamshoplanding-container {
+        margin-top: 145px;
+        min-height: 700px;
+        height: auto;
+        background: #b1a286;
+        font-family: 'Arvo', serif;
+        max-width: 80%;
+    }
+    
+    .teamshoplanding-row {
+        height: 750px;
+        padding: 20px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    
+    .teamshoplanding-col {
+        height: auto;
+        min-height: 902px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: start;
+
+        .teamshopLanding-col-title {
+            font-size: 17px;
+            font-weight: bold;
+            align-self: center;
+        }
+    }
+} 
+@media screen and (min-width: 698px) and (max-width: 900px) {
+    .teamshoplanding-container {
+        margin-top: 145px;
+        min-height: 700px;
+        height: auto;
+        background: #b1a286;
+        font-family: 'Arvo', serif;
+        max-width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .teamshoplanding-row {
+        height: 750px;
+        padding: 20px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    
+    .teamshoplanding-col {
+        height: auto;
+        min-height: 902px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+
+        .teamshoplanding-col-title {
+            font-size: 17px;
+            font-weight: bold;
+            align-self: center;
+        }
+    }
+}  
+@media screen and (min-width: 900px) and (max-width: 1024px) {
+    .teamshoplanding-container {
+        margin-top: 145px;
+        min-height: 700px;
+        height: auto;
+        background: #b1a286;
+        font-family: 'Arvo', serif;
+        max-width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .teamshoplanding-row {
+        height: 750px;
+        padding: 20px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    
+    .teamshoplanding-col {
+        height: auto;
+        min-height: 902px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+
+        .teamshoplanding-col-title {
+            font-size: 17px;
+            font-weight: bold;
+            align-self: center;
+        }
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 4000px) {
+    .teamshoplanding-container {
+        margin-top: 105px;
+        min-height: 500px;
+        height: auto;
+        background: #b1a286;
+        font-family: 'Arvo', serif;
+        max-width: 70%;
+    }
+    
+    .teamshoplanding-row {
+        height: 750px;
+        padding: 20px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    
+    .teamshoplanding-col {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -16,14 +171,12 @@
         width: 80vw;
         justify-content: center;
 
-        .teamshopLanding-title {
-            display: flex;
-            width: 100vw;
-            height: auto;
-            justify-content: center;
+        .teamshoplanding-col-title {
+            font-size: 17px;
+            font-weight: bold;
+            align-self: center;
         }
     }
-    
 }
 
 

@@ -52,3 +52,39 @@
     }
   }
 }
+@media screen and (min-width: 300px) and (max-width: 375px) {
+  .collection-item {
+    margin-left: 30px;
+    .image {
+      height: 120px;
+      margin-bottom: 5px;
+      background-size: contain;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-position: top;
+      max-width: 100%;
+    }
+    .collection-footer {
+      font-size: 10px;
+    }
+  }
+
+}
+@media screen and (min-width: 376px) and (max-width: 698px) {
+  .collection-item {
+  
+    .image {
+      height: 120px;
+      margin-bottom: 5px;
+      background-size: contain;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-position: top;
+      max-width: 100%;
+    }
+    .collection-footer {
+      font-size: 10px;
+    }
+  }
+
+}

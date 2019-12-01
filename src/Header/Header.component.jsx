@@ -19,9 +19,6 @@ const Header = ({ currentUser, hidden, displayName}) => (
                 <NavLink className="navbar-brand" to='/homepage'><i className="fas fa-baseball-ball fa-sm"></i><span className='brand-span'>FG</span></NavLink>
                     <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li className="nav-item">
-                        <NavLink className="nav-link" exact to='/teaminfo'>Team-Info <span className="sr-only">(current)</span></NavLink>
-                        </li>
-                        <li className="nav-item">
                         <NavLink className="nav-link" to='/teamshop'>Team-Shop<span className="sr-only">(current)</span></NavLink>
                         </li>
                         <li className="nav-item">
@@ -29,9 +26,6 @@ const Header = ({ currentUser, hidden, displayName}) => (
                         </li>
                         <li className="nav-item">
                         <NavLink className="nav-link" exact to='/blog'>Blog <span className="sr-only">(current)</span></NavLink>
-                        </li>
-                        <li className="nav-item">
-                        <NavLink className="nav-link" exact to='/test'>Test <span className="sr-only">(current)</span></NavLink>
                         </li>
                     </ul>
                     <ul className="right-ul navbar-nav ml-auto">
