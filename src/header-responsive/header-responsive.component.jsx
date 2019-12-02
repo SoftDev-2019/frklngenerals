@@ -2,6 +2,7 @@ import React from 'react';
 import './header-responsive.styles.scss'
 import Header from '../Header/Header.component';
 
+
 const HeaderResponsive = () => (
     <div className='header-responsive-main fixed-top'>
         <div className='header-responsive-nav-links'>

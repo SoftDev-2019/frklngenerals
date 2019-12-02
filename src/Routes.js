@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
-import TeamInfo from './team-info/team-info.component';
-import Roster from './Roster';
 import HomePage from './homepage/homepage.component';
 import PlayerDetails from './PlayerDetails';
 import SignInAndSignUp from './sign-in-and-sign-up';
@@ -11,7 +9,6 @@ import CheckoutPage from './checkout/checkout.component';
 import TeamShopLanding from './teamshoplanding/teamshoplanding.component';
 import ShopPage from './shop/shop.component';
 import BlogRes from './blogres/blogres.component';
-import TestBed from './test_bed/test_bed.component';
 import LandingPageSignUp from './landing-page/landing-page.component';
 import SponsorsRes from './sponsorsres/sponsorsres.component';
 
