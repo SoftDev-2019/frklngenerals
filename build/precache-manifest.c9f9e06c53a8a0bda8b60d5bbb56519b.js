@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "caecca559c0f31384c74aa194cb9fa86",
+    "revision": "118c90df66f57b59c5c0f1ae7c3d2124",
     "url": "/index.html"
   },
   {
-    "revision": "a2dee2120331feb8d4d7",
+    "revision": "1232293e86229d827ed6",
     "url": "/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "a718c15e614e6216b8b4",
-    "url": "/static/css/main.43d3eeea.chunk.css"
+    "revision": "62cbf708346f1bf24128",
+    "url": "/static/css/main.20c59759.chunk.css"
   },
   {
-    "revision": "a2dee2120331feb8d4d7",
-    "url": "/static/js/2.c60dbcd6.chunk.js"
+    "revision": "1232293e86229d827ed6",
+    "url": "/static/js/2.57a7df05.chunk.js"
   },
   {
-    "revision": "a718c15e614e6216b8b4",
-    "url": "/static/js/main.ca31e183.chunk.js"
+    "revision": "62cbf708346f1bf24128",
+    "url": "/static/js/main.5dcf0d5b.chunk.js"
   },
   {
     "revision": "d168dfd6372324ff0ba5",
@@ -36,28 +36,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/FallClassic.dc81a45d.PNG"
   },
   {
-    "revision": "cdeb52aa4c8e35ced21ec39d1436654d",
-    "url": "/static/media/Generals2.cdeb52aa.jpeg"
-  },
-  {
-    "revision": "15188fc0caf6021abd3b0826c0b6b217",
-    "url": "/static/media/GeneralsPracticeLogo.15188fc0.jpeg"
-  },
-  {
-    "revision": "94ff5e8dce51883b0b104ec222937aea",
-    "url": "/static/media/Generals_Game_Jersey_1.94ff5e8d.JPEG"
-  },
-  {
-    "revision": "3748a007399201dd9fc4046001bcbf9a",
-    "url": "/static/media/Generals_Hat_1.3748a007.JPEG"
-  },
-  {
-    "revision": "9d9f521e3efdf0012e7431cad08cc518",
-    "url": "/static/media/Generals_Practice_Jersey_1.9d9f521e.JPEG"
-  },
-  {
     "revision": "da2e4c35009ecfaf86e913b5175122d1",
     "url": "/static/media/ImgBrock.da2e4c35.jpeg"
+  },
+  {
+    "revision": "30c6fedfb4a0118ca3b5a5c9f25111bf",
+    "url": "/static/media/Logo.30c6fedf.png"
   },
   {
     "revision": "16083a4617aa379a3c6f5989aec7937c",
