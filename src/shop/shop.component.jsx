@@ -34,8 +34,8 @@ class ShopPage extends Component {
         const { match } = this.props;
         const { loading } = this.state;
         return (
-            <div className='container-fluid collection-page-container'>
-                <div className='shop-page'>
+            <div className='container-fluid shop-page-collection-container'>
+                <div className='shop-page-collection-container-route'>
                     <Route exact path={`${match.path}`} render={(props) => <CollectionsOverviewWithSpinner isLoading={loading} {...props} />} />
                     <Route path={`${match.path}/:collectionId`} render={(props) => <CollectionPageWithSpinner isLoading={loading} {...props} />} />
                 </div>

@@ -1,5 +1,5 @@
 .menu-item {
-    min-width: 30vw;
+    min-width: 20vw;
     height: 240px;
     flex: 1 1 auto;
     display: flex;
@@ -66,5 +66,16 @@
             font-weight: lighter;
             font-size: 16px;
         }
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 698px) {
+    .menu-item {
+        min-width: 40vw;
+    }
+}
+@media screen and (max-width: 374px) {
+    .menu-item {
+        min-width: 50vw;
     }
 }

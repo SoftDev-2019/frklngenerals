@@ -1,7 +1,8 @@
-.directory-menu {
-    margin-top: 1.3rem;
-    width: 100%;
+.directory-menu-items-container {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
+    padding: 10px;
 }
