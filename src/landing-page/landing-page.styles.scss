@@ -1,5 +1,4 @@
 .landing-page-sign-up-container {
-    margin-top: 70px;
     min-height: 500px;
     height: auto;
     background: rgb(36, 34, 34);
@@ -70,7 +69,6 @@
 
 @media screen and (min-width: 414px) and (max-width: 698px) {
     .landing-page-sign-up-container {
-        margin-top: 70px;
         min-height: 570px;
         height: auto;
         background: rgb(36, 34, 34);
@@ -79,7 +77,6 @@
 
 @media screen and (min-width: 698px) and (max-width: 900px) {
     .landing-page-sign-up-container {
-        margin-top: 70px;
         min-height: 850px;
         height: auto;
         background: rgb(36, 34, 34);
@@ -149,7 +146,6 @@
 }
 @media screen and (min-width: 900px) and (max-width: 1024px) {
     .landing-page-sign-up-container {
-        margin-top: 65px;
         min-height: 1200px;
         height: auto;
         background: rgb(36, 34, 34);
@@ -220,7 +216,6 @@
 }
 @media screen and (min-width: 1025px) and (max-width: 4000px) {
     .landing-page-sign-up-container {
-        margin-top: 70px;
         min-height: 1200px;
         height: auto;
         background: rgb(36, 34, 34);
@@ -233,7 +228,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        padding-top: 220px;
+        padding-top: 141px;
     }
     
     .landing-page-sign-up-col {

@@ -10,6 +10,9 @@ import { createStructuredSelector } from 'reselect';
 import { selectCurrentUser } from './redux/user/user.selectors';
 import Footer from './footer/footer.component';
 import { selectCollectionsForPreview } from './redux/shop/shop.selectors';
+import HamburgerNavBar from './hamburger-navbar/hamburger-navbar.component'
+import NavBarLarge from './navbar/navbar.component';
+import HamburgerTemp from './hamburger-navbar/hamburger-temp.component'
 
 class App extends Component {
     static defaultProps = {
@@ -41,10 +44,20 @@ class App extends Component {
     render() {
         return (
             <div className='App'>
+              <div className='container-fluid navbar-large-container'>
+                <div className='row navbar-large-container-row'>
+                  <div className='col-12 d-none d-md-inline navbar-large-container-row-col'>
+                    <NavBarLarge />
+                  </div>
+                  <div className='col-12 d-md-none navbar-small-container-row-col'>
+                    <HamburgerTemp />
+                  </div>
+                </div>
+              </div>
                <HeaderResponsive />
                <Routes players={this.props.players} />
                <Footer />
-            </div>
+          </div>
         );
     }
 }
