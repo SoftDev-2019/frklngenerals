@@ -26,7 +26,7 @@ class HamburgerTemp extends Component {
             <div className='container-fluid hamburgertemp-container'>
                <div className='row hamburgertemp-container-row1'>
                    <div className='col-6 hamburgertemp-container-row1-col1'>
-                        <NavLink className="navbar-brand hamburgertemp-brand" to='/homepage' onClick={this.handleClick}><i className="fas fa-baseball-ball fa-sm"></i><span className='hamburgertemp-brand-span'>FG</span></NavLink>
+                        <NavLink className="navbar-brand hamburgertemp-brand" to='/homepage'><i className="fas fa-baseball-ball fa-sm"></i><span className='hamburgertemp-brand-span'>FG</span></NavLink>
                    </div>
                    <div className='col-6 hamburgertemp-container-row1-col2'>
                         <span className='hamburgertemp-displayname'>{ this.props.currentUser ? this.props.currentUser.displayName : ''}</span>
@@ -40,7 +40,7 @@ class HamburgerTemp extends Component {
                         <NavLink className="nav-link" exact to='/sponsor' onClick={this.handleClick}>Sponsors<span className="sr-only">(current)</span></NavLink>
                         <NavLink className="nav-link" exact to='/blog' onClick={this.handleClick}>Blog <span className="sr-only">(current)</span></NavLink>  
                         { this.props.currentUser ? <div className="nav-link" onClick={() => auth.signOut()}>Sign Out<span className="sr-only">(current)</span></div>: ''}
-                        <span className='hamburgertemp-carticon-span'>{ this.props.currentUser ? <CartIcon /> : '' }</span>
+                        <span className='hamburgertemp-carticon-span' onClick={this.handleClick}>{ this.props.currentUser ? <CartIcon /> : '' }</span>
                     </div>
                 </div>
                : '' }
