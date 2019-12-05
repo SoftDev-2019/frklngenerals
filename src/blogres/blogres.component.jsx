@@ -22,7 +22,7 @@ const BlogRes = () => (
                     to deliver continued momentum and are hopeful the victories will start to pile up.
                 </p>
                 <br />
-                <a href="https://game7baseball.azurewebsites.net/Events/Details/171/tn-game-7-fall-championships?division=11U-AA#schedule" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">Tournament Details </a>
+                <a target={"_blank"}  href="https://game7baseball.azurewebsites.net/Events/Details/171/tn-game-7-fall-championships?division=11U-AA#schedule" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">Tournament Details </a>
             </div>
         </div>
         <div className='row blogres-row'>
@@ -44,7 +44,7 @@ const BlogRes = () => (
                 </p>
                 <p></p>
                 <br />
-                <a href="https://game7baseball.azurewebsites.net/Events/Details/168/tn-game-7-fall-classic?division=11U-AA#schedule" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">Tournament Details </a>
+                <a target={"_blank"}  href="https://game7baseball.azurewebsites.net/Events/Details/168/tn-game-7-fall-classic?division=11U-AA#schedule" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">Tournament Details </a>
             </div>
         </div>
     </div>

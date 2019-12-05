@@ -52,15 +52,15 @@ class SponsorsRes extends Component {
                         <div className='sponsorsres-col-content-image'></div>
                         <div className='sponsors-col-content-team-sponsors'>
                             <h1 className='sponsors-col-content-team-sponsors-title'>FRANKLIN GENERALS TEAM SPONSORS</h1>
-                            <a className='sponsors-col-content-team-sponsors-link' href='https://musiccitytax.com/' >Music City Tax</a>
+                            <a className='sponsors-col-content-team-sponsors-link' target={"_blank"} href='https://musiccitytax.com/' >Music City Tax</a>
                             <br />
-                            <a className='sponsors-col-content-team-sponsors-link' href='https://www.facebook.com/quinnspubtn/'>Quinn's Neighbourhood Pub</a>
+                            <a className='sponsors-col-content-team-sponsors-link' target={"_blank"} href='https://www.facebook.com/quinnspubtn/'>Quinn's Neighbourhood Pub</a>
                             <br />
-                            <a className='sponsors-col-content-team-sponsors-link' href='https://www.llflooringcompany.com/'>L & L Flooring Company</a>
+                            <a className='sponsors-col-content-team-sponsors-link' target={"_blank"} href='https://www.llflooringcompany.com/'>L & L Flooring Company</a>
                             <br />
-                            <a className='sponsors-col-content-team-sponsors-link' href='https://accuworks.com/'>Accuworks</a>
+                            <a className='sponsors-col-content-team-sponsors-link' target={"_blank"} href='https://accuworks.com/'>Accuworks</a>
                             <br />
-                            <a className='sponsors-col-content-team-sponsors-link' href='https://www.bklynbrospizza.com/'>Brooklyn Brothers Pizza</a>
+                            <a className='sponsors-col-content-team-sponsors-link' target={"_blank"} href='https://www.bklynbrospizza.com/'>Brooklyn Brothers Pizza</a>
                         </div>
                     </div>
                     <div className='col-8 sponsorsres-col-signup'>

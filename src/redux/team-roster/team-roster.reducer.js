@@ -54,7 +54,7 @@ const INITIAL_STATE = {
         },
         {
             JERSEYNUM: 24,
-            PLAYER: 'Brock',
+            PLAYER: 'Mateo Bruzzese',
             AGE: `${moment().diff(moment('20080901', 'YYYYMMDD'), 'years')} and ${(moment().diff(moment('20190901', 'YYYYMMDD'), 'months'))} months`
         },
         {
