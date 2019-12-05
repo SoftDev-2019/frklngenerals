@@ -1,14 +1,14 @@
-.collection-page {
+.collection-page-container {
     display: flex;
     flex-direction: column;
     font-family: 'Arvo', serif;
   
-    .title {
+    .collection-page-container-title {
       font-size: 38px;
       margin: 0 auto 30px;
     }
   
-    .items {
+    .collection-page-container-items {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-gap: 1px;
@@ -21,18 +21,18 @@
     }
   }
   @media screen and (min-width: 300px) and (max-width: 375px) {
-    .collection-page {
+    .collection-page-container {
      
-      .title {
+      .collection-page-container-title {
         font-size: 20px;
         margin: 0 auto 30px;
       }
     }
   }
   @media screen and (min-width: 376px) and (max-width: 698px) {
-    .collection-page {
+    .collection-page-container {
      
-      .title {
+      .collection-page-container-title {
         font-size: 20px;
         margin: 0 auto 30px;
       }
