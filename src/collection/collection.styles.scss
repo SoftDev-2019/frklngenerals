@@ -2,10 +2,15 @@
     display: flex;
     flex-direction: column;
     font-family: 'Arvo', serif;
-  
+    border: 2px solid white;
+    margin: 0px;
+    min-height: 100px;
+    height: auto;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1),
+            inset 0 0 25px #b50000;
     .collection-page-container-title {
-      font-size: 38px;
-      margin: 0 auto 30px;
+      font-size: 20px;
+      margin: 0px auto 30px;
     }
   
     .collection-page-container-items {
@@ -22,7 +27,8 @@
   }
   @media screen and (min-width: 300px) and (max-width: 375px) {
     .collection-page-container {
-     
+      min-height: 50px;
+      height: auto;
       .collection-page-container-title {
         font-size: 20px;
         margin: 0 auto 30px;
@@ -31,11 +37,23 @@
   }
   @media screen and (min-width: 376px) and (max-width: 698px) {
     .collection-page-container {
-     
+      min-height: 50px;
+      height: auto;
       .collection-page-container-title {
         font-size: 20px;
         margin: 0 auto 30px;
       }
     }
   }
-  
+  @media screen and (min-width: 700px) and (max-width: 4000px) {
+    .collection-page-container {
+      min-height: 530px;
+      height: auto;
+      margin: auto 40px;
+      .collection-page-container-title {
+        font-size: 37px;
+        margin: 0 auto 30px;
+        padding-top: 10px;
+      }
+    }
+  }

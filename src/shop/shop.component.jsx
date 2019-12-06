@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
+import { Route, NavLink } from 'react-router-dom';
 import CollectionPage from '../collection/collection.component';
 import CollectionsOverview from '../collections-overview/collections.overview.component';
 import './shop.styles.scss';
@@ -38,6 +38,13 @@ class ShopPage extends Component {
                 <div className='shop-page-collection-container-route'>
                     <Route exact path={`${match.path}`} render={(props) => <CollectionsOverviewWithSpinner isLoading={loading} {...props} />} />
                     <Route path={`${match.path}/:collectionId`} render={(props) => <CollectionPageWithSpinner isLoading={loading} {...props} />} />
+                </div>
+                <div className='shop-page-collection-links'>
+                  <NavLink className='shop-page-collection-links-item' to='/teamshop/shop/hats'>Hats</NavLink>
+                  <NavLink className='shop-page-collection-links-item' to='/teamshop/shop/jerseys'>Jerseys</NavLink>
+                  <NavLink className='shop-page-collection-links-item' to='/teamshop/shop/pants'>Pants</NavLink>
+                  <NavLink className='shop-page-collection-links-item' to='/teamshop/shop/mens'>Mens</NavLink>
+                  <NavLink className='shop-page-collection-links-item' to='/teamshop/shop/womens'>Womens</NavLink>
                 </div>
             </div>
         );
