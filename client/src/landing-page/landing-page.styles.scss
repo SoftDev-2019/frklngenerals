@@ -1,0 +1,286 @@
+.landing-page-sign-up-container {
+    min-height: 500px;
+    height: auto;
+    background: rgb(36, 34, 34);
+}
+
+.landing-page-sign-up-row {
+    height: 150px;
+    padding: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.landing-page-sign-up-col {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1),
+    inset 0 0 25px red;
+    height: auto;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.landing-page-sign-up-col-fence {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://storage.needpix.com/rsynced_images/fence-454558_1280.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: top;
+    max-width: 100%;
+}
+
+.landing-page-sign-in-link {
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(36, 34, 34);
+    font-family: 'Arvo', serif;
+    font-size: 1rem;
+    color: white;
+}
+.landing-page-sign-in-link:hover {
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(36, 34, 34);
+    font-family: 'Arvo', serif;
+    font-size: 1rem;
+    color: #b50000;
+    text-decoration: none;
+}
+
+.landing-page-sign-up-container-image {
+    height: auto;
+    min-height: 150px;
+    background-image: url('../Images/crossedBats.png');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: top;
+    max-width: 100%;
+}
+
+@media screen and (min-width: 414px) and (max-width: 698px) {
+    .landing-page-sign-up-container {
+        min-height: 570px;
+        height: auto;
+        background: rgb(36, 34, 34);
+    }
+}
+
+@media screen and (min-width: 698px) and (max-width: 900px) {
+    .landing-page-sign-up-container {
+        min-height: 850px;
+        height: auto;
+        background: rgb(36, 34, 34);
+    }
+    .landing-page-sign-up-row {
+        height: 550px;
+        padding: 20px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 150px;
+    }
+    
+    .landing-page-sign-up-col {
+        box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1),
+        inset 0 0 25px red;
+        height: auto;
+        min-height: 550px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .landing-page-sign-up-col-fence {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url('https://storage.needpix.com/rsynced_images/fence-454558_1280.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-position: top;
+        max-width: 100%;
+    }
+    
+    .landing-page-sign-in-link {
+        cursor: pointer;
+        font-weight: bold;
+        color: rgb(36, 34, 34);
+        font-family: 'Arvo', serif;
+        font-size: 2.8rem;
+        color: white;
+    }
+    .landing-page-sign-in-link:hover {
+        cursor: pointer;
+        font-weight: bold;
+        color: rgb(36, 34, 34);
+        font-family: 'Arvo', serif;
+        font-size: 2.8rem;
+        color: #b50000;
+        text-decoration: none;
+    }
+    
+    .landing-page-sign-up-container-image {
+        height: auto;
+        min-height: 280px;
+        background-image: url('../Images/crossedBats.png');
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-position: top;
+        max-width: 100%;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1024px) {
+    .landing-page-sign-up-container {
+        min-height: 1200px;
+        height: auto;
+        background: rgb(36, 34, 34);
+    }
+   
+    .landing-page-sign-up-row {
+        height: 550px;
+        padding: 100px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 220px;
+    }
+    
+    .landing-page-sign-up-col {
+        box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1),
+        inset 0 0 25px red;
+        height: auto;
+        min-height: 550px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .landing-page-sign-up-col-fence {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url('https://storage.needpix.com/rsynced_images/fence-454558_1280.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-position: top;
+        max-width: 100%;
+    }
+    
+    .landing-page-sign-in-link {
+        cursor: pointer;
+        font-weight: bold;
+        color: rgb(36, 34, 34);
+        font-family: 'Arvo', serif;
+        font-size: 2.4rem;
+        color: white;
+    }
+    .landing-page-sign-in-link:hover {
+        cursor: pointer;
+        font-weight: bold;
+        color: rgb(36, 34, 34);
+        font-family: 'Arvo', serif;
+        font-size: 2.4rem;
+        color: #b50000;
+        text-decoration: none;
+    }
+    
+    .landing-page-sign-up-container-image {
+        height: auto;
+        min-height: 280px;
+        background-image: url('../Images/crossedBats.png');
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-position: top;
+        max-width: 100%;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 4000px) {
+    .landing-page-sign-up-container {
+        min-height: 1200px;
+        height: auto;
+        background: rgb(36, 34, 34);
+    }
+   
+    .landing-page-sign-up-row {
+        height: 550px;
+        padding: 200px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 141px;
+    }
+    
+    .landing-page-sign-up-col {
+        box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1),
+        inset 0 0 25px red;
+        height: auto;
+        min-height: 550px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .landing-page-sign-up-col-fence {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url('https://storage.needpix.com/rsynced_images/fence-454558_1280.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-position: top;
+        max-width: 100%;
+    }
+    
+    .landing-page-sign-in-link {
+        cursor: pointer;
+        font-weight: bold;
+        color: rgb(36, 34, 34);
+        font-family: 'Arvo', serif;
+        font-size: 2.4rem;
+        color: white;
+    }
+    .landing-page-sign-in-link:hover {
+        cursor: pointer;
+        font-weight: bold;
+        color: rgb(36, 34, 34);
+        font-family: 'Arvo', serif;
+        font-size: 2.4rem;
+        color: #b50000;
+        text-decoration: none;
+    }
+    
+    .landing-page-sign-up-container-image {
+        height: auto;
+        min-height: 280px;
+        background-image: url('../Images/crossedBats.png');
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-position: top;
+        max-width: 100%;
+    }
+}
